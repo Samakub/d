@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Search and Recommendations</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Game Search and Recommendations</h1>
+        <input type="text" id="searchInput" placeholder="Search for a game or genre">
+        <button onclick="searchGames()">Search</button>
+
+        <h2>All Games</h2>
+        <div id="gameList" class="game-list"></div>
+
+        <h2>Recommended for You</h2>
+        <div id="recommendedList" class="recommended-list"></div>
+
+        <h2>Genres</h2>
+        <div id="genreList" class="genre-list"></div>
+    </div>
+
+    <script src="app.js"></script>
+
+</body>
+</html>
